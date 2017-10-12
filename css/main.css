@@ -1,0 +1,37 @@
+html {
+  box-sizing: border-box;
+  background-color: #dbd6cf;
+  font-family: 'Bevan', sans-serif;
+  line-height: 1.5;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  color: #fff;
+  background-color: #79756f;
+  padding: 50px 10px;
+  border: 5px solid ##595652;
+}
+
+header {
+  text-align: center;
+}
+
+.menu li {
+  color: #fff;
+  background-color: #713837;
+  list-style-type: none;
+  text-align: center;
+}
+
+.menu a {
+  color: #fff;
+  text-decoration: none;
+}
+
+- *Colours:* `#fff`, `#79756f`, `#595652`, `#713837`, `#f33`, `#dbd6cf`
+- *Paddings:* `.6em`, `.5em .75em`
+- *Margin:* `.3em`
